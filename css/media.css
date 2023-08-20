@@ -191,9 +191,12 @@
   }
   }
 @media screen and (min-width: 1157px) {
-  .container {
+   .container{
     max-width: 1158px;
-    padding: 0 15px;
+   }
+  .section-costumers .container,
+  .footer .container {
+    max-width: 1158px;
   }
   .header-logo link{
      margin-right: 76px;
@@ -259,11 +262,36 @@
     
 }
 .advantages-item{
-  width: calc((100% - 72px) / 4);
+  max-width: calc((100% - 72px) / 4);
 }
 .advantages-title{
   font-size: 20px;
   line-height: 1.2;
   
+}
+.team-list.list{
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+.costumer-list{
+  flex-wrap: nowrap;
+ gap: 24px;
+}
+.costumer-item.list{
+  width: 168px;
+  
+}
+.footer-title{
+  margin-top: 0;
+}
+.footer-left{
+    margin-right: 120px;
+}
+.footer-right{
+  margin-right: 80px;
+  
+}
+.footer .container {
+  flex-wrap: nowrap;
 }
 }
