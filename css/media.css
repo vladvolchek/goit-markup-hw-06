@@ -7,10 +7,12 @@
   .mob-menu {
     padding: 80px 40px 40px 35px;
   }
-
+.mob-menu .social-links{
+gap: 24px;
+}
   .mob-menu .social-links {
     justify-content: normal;
-    gap: 56px;
+    gap: 24px;
   }
 
   .mob-nav-link {
@@ -34,7 +36,12 @@
     width: 392px;
   }
 }
-
+@media screen and (min-width: 428px) and (max-width: 767px){
+   .mob-menu .social-links {
+    justify-content: normal;
+    gap: 56px;
+  }
+}
 @media screen and (min-width: 768px)  {
   .team-section .container,
   .section-costumers .container,
@@ -311,6 +318,9 @@
   flex-wrap: nowrap;
   gap: 24px;
 }
+ .team-section.container {
+    max-width: 1158px;
+  }
 .costumer-list{
   flex-wrap: nowrap;
  gap: 24px;
