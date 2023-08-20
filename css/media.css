@@ -1,6 +1,7 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 320px) and (max-width: 428px) {
   .container {
     max-width: 428px;
+    width: 100%;
   }
 
   .mob-menu {
@@ -229,6 +230,7 @@
     
   }
   .main-section{
+    padding: 188px 0;
     background-color: var(--primary-dark-color);
     background-image: linear-gradient rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7),
       url(../image-1x-2x/hero-image-desc1x.jpg);
@@ -245,6 +247,28 @@
         url(../image-1x-2x/hero-image-desc2x.jpg);
     }
   }
+  .section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+    margin-bottom: 72px
+}
+.main-title{
+  margin: 0 auto 48px auto;
+}
+.section-item.list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.activity-section{
+    padding-bottom: 120px;
+    display: flex;
+}
   .advantages-icon{
     display: flex;
     align-items: center;
@@ -295,5 +319,8 @@
 }
 .footer .container {
   flex-wrap: nowrap;
+}
+.footer-text{
+  width: 264px;
 }
 }
