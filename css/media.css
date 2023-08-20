@@ -175,12 +175,46 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 72px 24px;
+    gap: 0 24px;
   }
   .footer-left,
   .footer-right,
   .footer-form-content {
     align-items: flex-start;
   }
+   .footer-form {
+    flex-direction: row;
+    gap: 24px;
   }
-
+  .footer-input {
+    width: 264px;
+  }
+  }
+@media screen and (min-width: 1157px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  .header-logo link{
+     margin-right: 76px;
+  }
+  .mob-menu{
+    display: none;
+  }
+  .menu-open-btn{
+    display: none;
+  }
+  .header-menu.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  .header-menu link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
