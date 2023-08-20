@@ -256,5 +256,14 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    
+}
+.advantages-item{
+  width: calc((100% - 72px) / 4);
+}
+.advantages-title{
+  font-size: 20px;
+  line-height: 1.2;
+  
 }
 }
