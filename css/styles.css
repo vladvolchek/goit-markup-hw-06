@@ -326,7 +326,7 @@ font-weight: 700;
 }
 
 .advantages-section{
-    padding: 120й px 0;
+    padding: 120px 0;
     
 }
 
@@ -575,7 +575,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer{
     background-color: #2E2F42;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 .footer.container {
   display: flex;

@@ -26,7 +26,8 @@
   }
 
   .footer-input {
-    width: 398px;
+    width: 100%;
+    max-width: 398px;
   }
 
   .modal {
@@ -41,7 +42,7 @@
     max-width: 584px;
   }
 @media screen and (min-width: 768px) {
-  .container {
+  .team-section.container {
     max-width: 768px;
   }
 }
@@ -278,6 +279,7 @@
 .activity-section{
     padding-bottom: 120px;
     display: flex;
+    gap: 24px;
 }
   .advantages-icon{
     display: flex;
@@ -327,10 +329,12 @@
   margin-right: 80px;
   
 }
-.footer .container {
+.footer.container {
   flex-wrap: nowrap;
+  gap: 0;
 }
 .footer-text{
   width: 264px;
+  margin-bottom: 0;
 }
 }
