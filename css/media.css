@@ -41,6 +41,9 @@ gap: 24px;
     justify-content: normal;
     gap: 56px;
   }
+  .one-button{
+    margin: 48px auto 0;
+  }
 }
 @media screen and (min-width: 768px)  {
   .team-section .container,
@@ -148,6 +151,9 @@ gap: 24px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin: 0 auto 36px auto;
+  }
+  .one-button{
+    margin: 0 auto;
   }
    .advatanges.list{
     gap: 72px 24px;
