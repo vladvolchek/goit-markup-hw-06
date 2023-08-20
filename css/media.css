@@ -207,13 +207,17 @@ gap: 24px;
   .footer-input {
     width: 264px;
   }
+  .footer-title{
+    margin-top: 0;
+  }
   }
 @media screen and (min-width: 1157px) {
    .container{
     max-width: 1158px;
     padding-left: 15px;
-  padding-right: 15px;
+   padding-right: 15px;
    }
+   
   .section-costumers .container,
   .footer .container {
     max-width: 1158px;
