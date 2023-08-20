@@ -139,6 +139,9 @@ gap: 24px;
         url(../image-1x-2x/hero-imahe-tab2x.jpg);
     }
   }
+  .main-section{
+    padding: 112px 0;
+  }
   .main-title{
     font-size: 56px;
     font-weight: 700;
