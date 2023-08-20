@@ -164,8 +164,23 @@
     width: 168px;
     
   }
+  .costumer-item{
+    width: calc((100% - 48px) / 3);
+  }
   .footer{
     padding: 96px 0;
+  }
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 72px 24px;
+  }
+  .footer-left,
+  .footer-right,
+  .footer-form-content {
+    align-items: flex-start;
   }
   }
 
