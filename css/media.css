@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px)  {
   .team-section .container,
   .section-costumers .container,
   .footer .container {
@@ -116,7 +116,7 @@
   .main-section{
     background-color: var(--primary-dark-color);
     background-image: linear-gradient rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7),
-      url(/image-1x-2x/hero-image-tab1x.jpg);
+      url(../image-1x-2x/hero-image-tab1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -127,7 +127,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7),
         
-        url(/image-1x-2x/hero-imahe-tab2x.jpg);
+        url(../image-1x-2x/hero-imahe-tab2x.jpg);
     }
   }
   .main-title{
