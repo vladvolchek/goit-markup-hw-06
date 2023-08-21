@@ -155,6 +155,9 @@ gap: 24px;
   .one-button{
     margin: 0 auto;
   }
+  .advantages.container{
+    max-width: 768px;
+  }
    .advatanges.list{
     gap: 72px 24px;
   }
