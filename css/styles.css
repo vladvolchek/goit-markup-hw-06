@@ -215,6 +215,7 @@ display: block;
   justify-content: space-between;
   overflow: auto;
   padding: 35px;
+  padding-top: 80px;
 }
 
 .mob-menu > .close-button-modal{
@@ -344,7 +345,7 @@ color: #2E2F42;
 .advatanges-text{
 font-family: Roboto;
 font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 color: #434455;
