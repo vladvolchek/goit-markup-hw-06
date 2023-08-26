@@ -21,6 +21,24 @@ gap: 24px;
   .mob-nav-link {
     font-size: 36px;
   }
+  .main-section{
+ padding: 188px 0;
+ background:#2E2F42;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),url(../image-1x-2x/hero-image-mob1x.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ max-width: 1440px;
+ margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.main-section{
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),url(../image-1x-2x/hero-image-mob2x.jpg);
+}
+  }
+  
 .section-costumers.container{
   max-width: 428px;
 }
@@ -38,6 +56,7 @@ gap: 24px;
     width: 100%;
     max-width: 398px;
   }
+ 
 .footer-form-content{
   margin-top: 72px;
 }
@@ -145,18 +164,18 @@ gap: 24px;
   }
   .main-section{
     
-    background-color: var(--primary-dark-color);
-    background-image: linear-gradient rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7),
+    background-color: #2E2F42;
+    background-image: linear-gradient rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70),
       url(../image-1x-2x/hero-image-tab1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-section {
+    .main-section {
       background-image: linear-gradient
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.70),
+          rgba(46, 47, 66, 0.70),
         
         url(../image-1x-2x/hero-imahe-tab2x.jpg);
     }
@@ -264,7 +283,7 @@ gap: 24px;
     position: relative;
     color: #404BBF;
 }
-  .header-logo .link{
+  .header-logo{
      margin-right: 76px;
   }
   .header-address.list{
@@ -304,18 +323,18 @@ gap: 24px;
     padding: 188px 0;
     background-color: var(--primary-dark-color);
     background-image: linear-gradient rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7),
-      url(../image-1x-2x/hero-image-desc1x.jpg);
+      url(../images/people-office.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-section {
+    .main-section {
       background-image: linear-gradient
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7),
         
-        url(../image-1x-2x/hero-image-desc2x.jpg);
+        url(../images/people-office-2x.jpg);
     }
   }
   .section-title{
@@ -404,7 +423,7 @@ gap: 24px;
 }
 .footer-text{
   width: 264px;
-  margin-bottom: 0;
+  
 }
 
 }
