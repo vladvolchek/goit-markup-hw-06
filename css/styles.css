@@ -42,7 +42,7 @@ footer{
     display: inline-block;
 }
 .container {
-  max-width: 428px;
+  max-width: 1158px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -636,6 +636,9 @@ max-width: 264px;
   flex-direction: column;
   align-items: center;
 }
+.footer-label{
+  width: 100%;
+}
 .footer-input {
   width: 398px;
   height: 40px;
@@ -846,7 +849,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .modal{
-    width: 408px;
+    max-width: 392px;
     min-height: 584px;
     position: absolute;
     top: 50%;
